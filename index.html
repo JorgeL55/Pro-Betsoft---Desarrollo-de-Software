@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro-Betsoft - Desarrollo de Software</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoimg.png" alt="Logo Pro-Betsoft" />
+        </div>
+        
+        <h1>Pro-Betsoft</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos Pro-Betsoft, una empresa dedicada al desarrollo de software de alta calidad.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicio">
+                <h3>Desarrollo Web</h3>
+                <p>Ofrecemos soluciones personalizadas de desarrollo web, desde sitios web estáticos hasta aplicaciones web complejas. Nuestro enfoque está en la funcionalidad, la usabilidad y el diseño responsivo.</p>
+            </div>
+        
+            <div class="servicio">
+                <h3>Desarrollo Móvil</h3>
+                <p>Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android. Nuestro equipo se especializa en crear experiencias de usuario fluidas y atractivas que cumplen con los estándares más altos de calidad.</p>
+            </div>
+        
+            <div class="servicio">
+                <h3>Consultoría en Tecnología</h3>
+                <p>Brindamos asesoría en la adopción de nuevas tecnologías, optimización de procesos y transformación digital. Nuestro objetivo es ayudar a las empresas a mejorar su rendimiento y eficiencia mediante soluciones tecnológicas innovadoras.</p>
+            </div>
+        
+            <div class="servicio">
+                <h3>Desarrollo de Software a Medida</h3>
+                <p>Creamos software a medida adaptado a las necesidades específicas de cada cliente. Desde la planificación hasta la implementación, trabajamos en estrecha colaboración para garantizar que el resultado final sea exactamente lo que necesitas.</p>
+            </div>
+        
+            <div class="servicio">
+                <h3>Mantenimiento y Soporte</h3>
+                <p>Ofrecemos servicios de mantenimiento y soporte técnico para asegurar que tus aplicaciones y sistemas sigan funcionando sin problemas. Nos encargamos de actualizaciones, corrección de errores y mejoras continuas.</p>
+            </div>
+        </section>
+        
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>Aquí se mostrarán nuestros proyectos destacados.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form" action="contact.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+             
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pro-Betsoft. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
